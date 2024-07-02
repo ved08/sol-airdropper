@@ -6,7 +6,7 @@ console.log("from: ", from.publicKey.toBase58())
 const to = new PublicKey("J46MYawFotziZu2ztkPWrrks18GSaZ4xoMsCtgwLwpnF")
 console.log("to: ", to.toBase58())
 
-const cluster = clusterApiUrl("testnet")
+const cluster = clusterApiUrl("devnet")
 const connection = new Connection(cluster);
 
 (async() => {
